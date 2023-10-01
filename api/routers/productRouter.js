@@ -4,7 +4,8 @@ router.get('/', (req, res, next) => {
     res.status(200).json({ message: 'products GET method' });
 });
 router.post('/', (req, res, next) => {
-    res.status(200).json({ message: 'products POST method' });
+    const {name, price} = req.body;
+    res.status(200).json({ message: 'products POST method', name, price });
 });
 router.patch('/:produtId', (req, res, next) => {
     const id = req.params.produtId;
