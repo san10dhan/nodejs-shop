@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-shop",
+  "version": "1.0.0",
+  "description": "This is a learning material for RESTful API built using nodejs-express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "RESTful"
+  ],
+  "author": "Sanket D",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
